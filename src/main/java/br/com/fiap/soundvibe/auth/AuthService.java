@@ -1,5 +1,6 @@
 package br.com.fiap.soundvibe.auth;
 
+import br.com.fiap.soundvibe.domain.user.UserRepository;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 

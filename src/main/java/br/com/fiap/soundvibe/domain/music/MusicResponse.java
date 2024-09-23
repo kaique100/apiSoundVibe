@@ -6,8 +6,8 @@ import java.util.List;
 
 public record MusicResponse (
         Long id,
-        String brand,
-        String model,
+        String author,
+        String title,
         String imageUrl,
         String description,
         List<CommentResponse> comments
@@ -15,8 +15,8 @@ public record MusicResponse (
     public static MusicResponse fromModel(Music music) {
         return new MusicResponse(
                 music.getId(),
-                music.getBrand(),
-                music.getModel(),
+                music.getAuthor(),
+                music.getTitle(),
                 music.getImageUrl(),
                 music.getDescription(),
                 CommentResponse.fromModelList(music.getComments())

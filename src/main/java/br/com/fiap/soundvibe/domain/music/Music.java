@@ -12,8 +12,8 @@ import java.util.List;
 public class Music {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String model;
-    private String brand;
+    private String author;
+    private String title;
     private String description;
     private String imageUrl;
     @OneToMany(mappedBy = "music")
