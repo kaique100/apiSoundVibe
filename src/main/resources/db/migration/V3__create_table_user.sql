@@ -8,6 +8,6 @@ CREATE TABLE IF NOT EXISTS users (
 );
 
 INSERT INTO users (name, username, password, role) VALUES
-('Kaique Santos', 'kaique.santos', '$2a$12$h3cu/Kp00GspyxPqq9GOjeM0ZaY2679ESM50m8ohPsHClhN.YrQTa', 'ROLE_ADMIN'),
-('Michael Silva', 'michael.silva', '$2a$12$bY8yIX2ahPwy.ADZciIs7OKV7LPzDktzirb521OtTv8cch4Ta6WaK', 'ROLE_USER'),
-('Bob Marley', 'bob.marley', '$2a$12$MO7apjxKdvmPlCe0Q3Vv9.ceEwk877lj25c/q6EaJZk1whnyV/H9W', 'ROLE_USER');
+('Kaique Santos', 'kaique.santos', '$2a$12$jAvt/gxlKSlIWKmLJwiV/eByTfUE0Gr79uEHLH1ULIaER8hHwhy.m', 'ROLE_ADMIN'),
+('Michael Silva', 'michael.silva', '$2a$12$lpd2LtVcoiSpIpGNYMAPB.EThDgqxVx9MggI4JZ.8kdP2HiLtOppS', 'ROLE_USER'),
+('Bob Marley', 'bob.marley', '$2a$12$pABXXaFQZ4O1lYj11NyEN.WS.kcJAUdQD242gf.Mt3AyuY6tPeFwe', 'ROLE_USER');
